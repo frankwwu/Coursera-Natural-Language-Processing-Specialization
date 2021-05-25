@@ -1,0 +1,58 @@
+>> I want you to meet my friends,
+Jonas and Lucas, the instructors of this specialization. >> Hi, everyone. >> Welcome to the specialization. >> I know Jonas for many years. He is an instructor at
+Stanford University and has also helped me create
+the deep learning specialization. Over the years, Jonas unice has taught
+hundreds of students learning AI and machine learning and NLP and
+other topics for the first time and he's also mentor students on a huge
+variety of AI related projects. So I really thrilled to have you with us. >> Thanks for the introduction and
+it is always great working with you. >> Lucas is a member of the Google Brain
+team where he does research on deep learning and NLP. So everything from machine translation
+to parsing, he is the co-author of Google's TensorFlow system as
+well as of the transformer network. And so his work has had a huge
+influence on all of NLP and AI. I'm really excited to also have Lucas
+as an instructor of the specialization. >> Thanks for the introduction, Andrew. >> Jonas and Lucas will walk
+you through the most important concepts in natural language processing. NLP has changed a lot over
+the last several decades. The view has started off using primarily
+rule-based systems where someone might code of a rule like you see the word good,
+then assume this is a positive customer review to then using probabilistic
+systems that perform much better. But still require a lot of hand
+engineering to know where NLP relies much more on machine learning and
+deep learning. >> More recently with the rise of
+powerful computers, we can now train end-to-end systems that would have
+been impossible to train a few years ago. We can now capture more complicated
+patterns and we can use these models in question answering in chatbots,
+and then other applications. >> Many of these applications
+are built with attention models, which you are going to learn
+in this specialization. A few years ago, these models would
+take weeks or even months to train. But with attention, you can train
+these models in just a few hours. >> In this specialization, you learn
+to build NLP technologies including the same technologies as what's deployed
+in many large commercial systems. In the first course, you learn about
+classification and vector spaces. Jonas, can you tell us a bit
+about the first course? >> Sure, in course one, you will learn to
+distinguish between pieces of text with positive sentiments and
+negative sentiments. You will do so using logistic
+regression and naive Bayes classifiers. You will also learn to represent words,
+queries and documents including other pieces
+of text as numbers in vectors. You will build your first
+machine translation system and you will learn about locality sensitive
+hashing which is just a method, that will help you with efficient search. >> Thanks Jonas. After the first course, you then go on
+to the second course in which you learn probabilistic models in NLP. So these are things like given a few
+words, what is the probability of the next word being the word the versus of,
+verus something else. So these are algorithms that all of
+us are maybe using almost every day. And in this specialization, you will learn
+how to build these algorithms yourself. After the first two courses with
+the foundation that I gives you, you then go on to the third course
+which teaches you sequence models. And finally, in the fourth course,
+you learn about attention models and this will take you up to
+say to the art NLP models useful things like chatbots question
+answering and text summarization. Jonas, you want to say
+a few words about that? >> By the time you complete scores for, you will be able to implement state of
+the art neural machine translation, summarization, question answering and
+chatbots. We will show you how you
+can combine attention and parallel computing to build these
+systems from the ground up. These models have high impact in industry. They could be used, for example,
+to automate call centers or businesses can use them to make
+sense of large volumes of data. >> I'm really excited for everyone to
+get started to take these courses, learn these technologies and
+to go build some great NLP systems. >> Let's get started. >> Awesome, see you in the classroom. >> Let's jump in.

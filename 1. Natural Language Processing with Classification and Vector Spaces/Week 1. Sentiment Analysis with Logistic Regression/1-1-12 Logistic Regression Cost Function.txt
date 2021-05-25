@@ -1,0 +1,65 @@
+Good to see you again. In this optional video,
+you're going to learn about the intuition behind the logistic
+regression cost function. Specifically, you will understand why
+the cost function is designed that way. You will see what happens when
+you predict the true label and you'll see what happens,
+when you predict the wrong label. Let's dive in and see how this logistic
+regression cost function is designed. Let's have a look now at
+the equation of the cost function, while this might look like
+a big complicated equation, it's actually rather straightforward, once
+you break it down into its components. First, have a look at the left hand side
+of the equation where you find a sum over the variable m, which is just the number
+of training examples in your training set. This indicates that you're going to sum
+over the cost of each training example. Out front, there is a -1/m, indicating that when combined with the
+sum, this will be some kind of average. The minus sign ensures that your overall
+costs will always be a positive number as you'll see clearly later in this video. Inside the square brackets, the equation
+has two terms that are added together. To consider what each of these terms
+contribute to the cost function for each training example, let's have
+a look at each of them separately. The term on the left is the product of
+y superscript i, which is the label for each training example,
+most applied by the log of the prediction, which is the logistic regression function
+applied to each training example. Represented as h of superscript i,
+and a parameter theta. Now, consider the case
+when your label is 0. In this case,
+the function h can return any value, and the entire term will be 0 because
+0 times anything is just 0. What about the case when your label is 1? If your prediction is close to 1, then the
+log of your prediction will be close to 0, because, as you may recall,
+the log of 1 is 0. And the product will also be near 0. If your label is 1, and
+your prediction is close to 0, then this term blows up and
+approaches negative infinity. Intuitively, now, you can see that this is
+the relevant term in your cost function when your label is 1. When your prediction is close to
+the label value, the loss is small, and when your label and prediction
+disagree, the overall cost goes up. Now consider the term on the right hand
+side of the cost function equation, in this case, if your label is 1,
+then the 1- y term goes to 0. And so any value returned by the logistic
+regression function will result in a 0 for the entire term, because again,
+0 times anything is just 0. If your label is 0, and the logistic
+regression function returns a value close to 0, then the products in this
+term will again be close to 0. If on the other hand your label is 0 and
+your prediction is close to 1, then the log term will blow up and the overall
+term will approach to negative infinity. From this exercise you
+can see now that there is one term in the cost function that
+is relevant when your label is 0, and another that is relevant
+when the label is 1. In each of these terms, you're taking
+the log of a value between 0 and 1, which will always return a negative
+number, and so the minus sign out front ensures that the overall cost
+will always be a positive number. Now, let's have a look at what
+the cost function looks like for each of the labels. 0 and 1,
+overall possible prediction values. First, we're going to look at
+the loss when the label is 1. In this plot, you have your prediction
+value on the horizontal axis and the cost associated with a single
+training example on the vertical axis. In this case J, of theta simplifies
+to just negative log h(x(theta). When your prediction is close to 1,
+the loss is close to 0. Because your prediction
+agrees well with the label. And when the prediction is close to 0,
+the loss approaches infinity, because your prediction and
+the label disagree strongly. The opposite is true when the label is 0. In this case J(theta) reduces to
+just minus log(1- h(x, theta). Now when your prediction is close to 0,
+the loss is also close to 0. And when your prediction is close to 1,
+the loss approaches infinity. You now understand how the logistic
+regression cost function works. You saw what happened when you predicted
+a 1 and the true label was a 1. You also saw what happened when you
+predicted a 0, and the true label was a 0. In the next week,
+you will learn about Naive Bayes, which is a different type of
+classification algorithm, which also allows you to predict whether
+a tweet is positive or negative.

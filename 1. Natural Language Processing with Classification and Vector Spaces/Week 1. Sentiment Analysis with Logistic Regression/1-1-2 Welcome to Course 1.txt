@@ -1,0 +1,27 @@
+Welcome to this first
+course of NLP in which you'll learn
+about classification and vector spaces. You'll also learn about the
+application of these ideas to problems like sentiment
+analysis and word translation. For example, let's say you
+have 1,000 product reviews, so pieces of texts
+written by users. Can you build a system
+to automatically go through all of these
+product reviews to figure out what
+fraction of them are positive reviews versus
+negative reviews? This course will teach you how. Lucas, can you say a few words
+about this first course? Sure. In the first week, you'll learn how to
+represent text as a vector and build a classifier that will classify
+whether a sample text is a positive sentiment
+or a negative one. You will use logistic
+regression for that. In the second week, you'll use the Naive Bayes classifier on the same problem. In the third week, you'll learn about vector space models. You'll learn how to represent
+text documents like tweets, articles, queries, or any object that contains
+of text as a vector. This is important in
+information retrieval, in indexing, in
+relevancy ranking, and also in
+information filtering. For example, when you
+look up a query online, the algorithm relies on all of these concepts to give
+you back your results. Finally, in week 4, you will build your
+first simple machine translation system and
+you'll make use of locality sensitive hashing to improve the performance of
+nearest neighbor search. Thanks, Eunice and Lucas. With that, let's get started
+and go on to the next video.

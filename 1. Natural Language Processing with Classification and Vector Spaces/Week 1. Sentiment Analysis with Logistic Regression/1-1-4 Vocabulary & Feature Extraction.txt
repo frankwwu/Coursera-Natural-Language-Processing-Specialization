@@ -1,0 +1,33 @@
+Hello. Welcome back.
+In this video, you're going to learn how to represent a text as a vector. In order for you to do so, you first have to build a vocabulary and that
+will allow you to encode any text or any tweet
+as an array of numbers. So let's dive in and see
+how you can do this. Picture a list of tweets, visually it would look like this. Then your vocabulary, V, would be the list of unique words from your list of tweets. To get that list, you'll have to go through
+all the words from all your tweets and save every new word that
+appears in your search. So in this example, you'd have the word I, then the word, am and happy, because, and so forth. But note that the
+word I and the word am would not be repeated
+in the vocabulary. Let's take this
+tweets and extract features using your vocabulary. To do so, you'd have to check if every word from your vocabulary
+appears in the tweet. If it does like in the
+case of the word I, you would assign a value of 1
+to that feature, like this. If it doesn't appear,
+you'd assign a value of 0, like that. In this example, the
+representation of your tweet would have six ones and many zeros. These correspond to
+every unique word from your vocabulary that
+isn't in the tweet. Now, this type of representation with a small relative number of non-zero values is called
+a sparse representation. Now let's take a closer look at this representation
+of these tweet. In the last slides, I walked you through extracting features to represent the tweet based on a vocabulary and
+I arrived at this vector. This representation
+would have a number of features equal to the size
+of your entire vocabulary. This would have a lot of features equal to
+0 for every tweet. With the sparse representation, a logistic regression
+model would have to learn n plus 1 parameters, where n would be
+equal to the size of your vocabulary and you can imagine that for large
+vocabulary sizes, this would be problematic. It would take an excessive
+amount of time to train your model and much more time than necessary to
+make predictions. Given a text, you learned
+how to represent this text as a vector of dimension
+V. Specifically, you did this for a tweet
+and you were able to build a vocabulary of dimension V. Now as V gets
+larger and larger, you will face certain problems. In the next video, you will learn to
+identify these problems.
